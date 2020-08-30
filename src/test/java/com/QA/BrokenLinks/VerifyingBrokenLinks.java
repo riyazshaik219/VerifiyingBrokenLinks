@@ -1,12 +1,8 @@
 package com.QA.BrokenLinks;
 
-import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,7 +18,7 @@ public class VerifyingBrokenLinks {
 			
 			WebDriver driver = new FirefoxDriver();
 			
-			driver.get("https://www.google.com/");
+			driver.get("https://www.facebook.com/");
 			
 			List<WebElement> links = driver.findElements(By.tagName("a"));
 			
