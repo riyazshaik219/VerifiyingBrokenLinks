@@ -1,4 +1,4 @@
-package com.QA.images;
+package com.qa.images;
 
 import java.util.List;
 
@@ -9,8 +9,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class BrokenImages {
-
-	
 	@Test
 	public void imagesTest() {
 		
@@ -22,4 +20,5 @@ public class BrokenImages {
 		
 		System.out.println("Total number of images are:"+images.size());
 	}
+
 }

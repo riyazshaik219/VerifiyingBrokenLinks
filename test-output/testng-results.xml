@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="400829" started-at="2020-08-30T06:55:02Z" finished-at="2020-08-30T07:01:43Z">
+  <suite name="Suite" duration-ms="469434" started-at="2020-09-15T17:39:54Z" finished-at="2020-09-15T17:47:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="400829" started-at="2020-08-30T06:55:02Z" finished-at="2020-08-30T07:01:43Z">
-      <class name="com.QA.images.BrokenImages">
-        <test-method status="PASS" signature="imagesTest()[pri:0, instance:com.QA.images.BrokenImages@2d45ba]" name="imagesTest" duration-ms="133834" started-at="2020-08-30T06:59:29Z" finished-at="2020-08-30T07:01:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- imagesTest -->
-      </class> <!-- com.QA.images.BrokenImages -->
-      <class name="com.QA.BrokenLinks.VerifyingBrokenLinks">
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.QA.BrokenLinks.VerifyingBrokenLinks@16905e]" name="LoginTest" duration-ms="266826" started-at="2020-08-30T06:55:02Z" finished-at="2020-08-30T06:59:29Z">
+    <test name="Test" duration-ms="469434" started-at="2020-09-15T17:39:54Z" finished-at="2020-09-15T17:47:43Z">
+      <class name="com.qa.Brokenlinks.VerifyingBrokenLinks">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.qa.Brokenlinks.VerifyingBrokenLinks@7fa833]" name="LoginTest" duration-ms="265099" started-at="2020-09-15T17:43:18Z" finished-at="2020-09-15T17:47:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-      </class> <!-- com.QA.BrokenLinks.VerifyingBrokenLinks -->
+      </class> <!-- com.qa.Brokenlinks.VerifyingBrokenLinks -->
+      <class name="com.qa.images.BrokenImages">
+        <test-method status="PASS" signature="imagesTest()[pri:0, instance:com.qa.images.BrokenImages@17e2f02]" name="imagesTest" duration-ms="204105" started-at="2020-09-15T17:39:54Z" finished-at="2020-09-15T17:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imagesTest -->
+      </class> <!-- com.qa.images.BrokenImages -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
